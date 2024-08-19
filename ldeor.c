@@ -10,6 +10,7 @@ int main() {
     uint64_t test_value = 0x12; // 用于异或操作的值
     uint64_t loaded_value, stored_value;
     int i;
+    int test;
 
     for (i = 0; i < 4; i++) {
         // 模拟 LDEOR 操作的逻辑：按位异或操作
